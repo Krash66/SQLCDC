@@ -14,3 +14,5 @@ Manipulate the code in the main form button events to decipher different parts o
 Use SSMS as a reference.
 
 Have fun
+
+PS... CDCSetup project does not work and is incompatible with VS2017, so don't worry about it. Inever built a release of this. I strictly used it out of Visual Studio so I could constantly manipulate code to analyze the encryption in the Transaction Logs.
