@@ -1,4 +1,4 @@
-﻿Public Class clsCDCproj
+﻿Public Class ClsCDCproj
 
     Private m_ProjectDSN As String = ""
     Private m_ProjectDSNUID As String

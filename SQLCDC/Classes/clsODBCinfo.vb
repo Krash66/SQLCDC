@@ -1,8 +1,8 @@
-Public Class clsODBCinfo
+Public Class ClsODBCinfo
 
     Private m_DSNname As String
     Private m_DSNdesc As String
-    Private m_ODBCtype As enumODBCtype
+    Private m_ODBCtype As EnumODBCtype
 
     Property DSNname() As String
         Get
@@ -22,11 +22,11 @@ Public Class clsODBCinfo
         End Set
     End Property
 
-    Private Property ODBCtype() As enumODBCtype
+    Private Property ODBCtype() As EnumODBCtype
         Get
             Return m_ODBCtype
         End Get
-        Set(ByVal value As enumODBCtype)
+        Set(ByVal value As EnumODBCtype)
             m_ODBCtype = value
         End Set
     End Property

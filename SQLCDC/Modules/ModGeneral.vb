@@ -6,7 +6,7 @@
 
     Public Const MsgTitle As String = "SQLCDC"
 
-    Public Enum enumODBCtype
+    Public Enum EnumODBCtype
         ACCESS = 1
         SQL_SERVER = 2
         ORACLE = 3

@@ -1,12 +1,12 @@
 ﻿Public Class frmMain
 
-    Dim ODBCsource As New clsODBCinfo
+    Dim ODBCsource As New ClsODBCinfo
     Private ODBCHelper As New CRODBCHelper()
-    Dim objProj As New clsCDCproj
+    Dim objProj As New ClsCDCproj
 
     Dim DSNname As String
     Dim DSNdesc As String
-    Dim DSNtype As enumODBCtype
+    Dim DSNtype As EnumODBCtype
     Dim RecArr As New ArrayList
     Dim RecArr2 As New ArrayList
     Private Ulogin As clsLogin
